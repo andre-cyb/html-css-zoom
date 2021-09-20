@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #cdcdcd;
+}
+header{
+    background-color: rgb(48, 48, 48);
+}
+header > div{
+    text-align: right;
+    vertical-align: middle;
+}
+.header-button{
+ margin: 20px 0px;
+}
+
+
+
+
+footer{
+    min
+}
