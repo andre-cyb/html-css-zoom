@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="file.css">
 
@@ -11,8 +14,8 @@
 
     <header>
         <div>
-            <button class="header-button">Speaker View</button>
-            <button class="header-button">Full screen</button>
+            <button class="header-button"><i class="fas fa-user-circle"></i> Speaker View</button>
+            <button class="header-button"><i class="fas fa-expand-arrows-alt"></i></button>
         </div>
     </header>
 
@@ -20,55 +23,105 @@
         
         <div class="main-container">
 
-            <div class="arrow-left"></div>
+            <div class="pagination arrow-left"> <div class="arrow-icon"><i class="fas fa-caret-left"></i></div> 1/2</div>
             <div class="users-container">
-                <div class="users"><img src="img/zoom1.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom2.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom3.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom4.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom5.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom6.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom7.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom4.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom5.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom6.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom7.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom1.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom2.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom3.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom2.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom1.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom2.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom3.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom4.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom5.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom6.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom7.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom4.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom5.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom6.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom7.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom1.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom2.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom3.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom1.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom2.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom3.jfif" alt=""></div>
-                <div class="users"><img src="img/zoom4.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom5.jpg" alt=""></div>
-                <div class="users"><img src="img/zoom6.jpg" alt=""></div>
+                <div class="users"><img src="img/zoom1.jpg" alt=""> <div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom2.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom3.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> arfrg baras</div></div>
+                <div class="users"><img src="img/zoom4.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom5.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> eretuj rgee</div></div>
+                <div class="users"><img src="img/zoom6.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom7.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> irgergaasn baras</div></div>
+                <div class="users"><img src="img/zoom4.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom5.jpg" alt=""><div class="users-name"></i> nfdtyhd baras</div></div>
+                <div class="users"><img src="img/zoom6.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom7.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn bdyjj</div></div>
+                <div class="users"><img src="img/zoom1.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> shtyhd baras</div></div>
+                <div class="users"><img src="img/zoom2.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn trhye</div></div>
+                <div class="users"><img src="img/zoom3.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> ett dhjtyrt</div></div>
+                <div class="users"><img src="img/zoom2.jfif" alt=""><div class="users-name"></i> etyhe baras</div></div>
+                <div class="users mic-on"><img src="img/zoom1.jpg" alt=""><div class="users-name"></i> amsiasn ethet</div></div>
+                <div class="users"><img src="img/zoom2.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> ehetyhe baras</div></div>
+                <div class="users"><img src="img/zoom3.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn etyh</div></div>
+                <div class="users"><img src="img/zoom4.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> tyheetyh tyhe</div></div>
+                <div class="users"><img src="img/zoom5.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom6.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> ettyttt eeethh</div></div>
+                <div class="users"><img src="img/zoom7.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom4.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> tyeety yyyyhjdgf</div></div>
+                <div class="users"><img src="img/zoom5.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom6.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> sfhsr baras</div></div>
+                <div class="users"><img src="img/zoom7.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn rthr</div></div>
+                <div class="users"><img src="img/zoom1.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> srtsth baras</div></div>
+                <div class="users"><img src="img/zoom2.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn thsrth</div></div>
+                <div class="users"><img src="img/zoom3.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> srtht baras</div></div>
+                <div class="users"><img src="img/zoom1.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn rtht</div></div>
+                <div class="users"><img src="img/zoom2.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> dthh rthsz</div></div>
+                <div class="users"><img src="img/zoom3.jfif" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn baras</div></div>
+                <div class="users"><img src="img/zoom4.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> zdfbb baras</div></div>
+                <div class="users"><img src="img/zoom5.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> amsiasn dfbdd</div></div>
+                <div class="users"><img src="img/zoom6.jpg" alt=""><div class="users-name"><i class="fas fa-microphone-alt-slash"></i> zdfbfb baras</div></div>
                 
             </div>
-            <div class="arrow-right"></div>
+            <div class="pagination arrow-right"> <div class="arrow-icon right"><i class="fas fa-caret-right"></i></div> 1/2</div>
         </div>
         
     </main>
 
     <footer>
         <div class="footer-container">
-            <div>Audio video</div>
-            <div>Strumenti</div>
-            <div>Termina meeting</div>
+
+
+            <div class="footer-mute-stop-video">
+                <div class="icon-text-container">
+                    <div><i class="fas fa-microphone"></i></div> Mute
+                </div>
+                <i class="fas fa-chevron-up"></i>
+
+
+                <div class="icon-text-container">
+                    <div><i class="fas fa-video"></i></div>Stop video
+                </div>
+                <i class="fas fa-chevron-up"></i>
+                
+            </div>
+            <div class="footer-tools">
+                <div class="icon-text-container">
+                    <div><i class="fas fa-user-plus"></i></div> invite
+                </div>
+                
+                <div class="icon-text-container">
+                    <div><i class="fas fa-users"></i></div> Manage Participants
+                </div>
+                
+                <div class="icon-text-container">
+                    <div><i class="fas fa-poll"></i></div> Polling
+                </div>
+                
+                <div class="icon-text-container">
+                    <div><i class="fas fa-desktop"></i></div> Share Screen
+                </div>
+                
+                <div class="icon-text-container">
+                    <div><i class="fas fa-comment-dots"></i></div> chat
+                </div>
+                
+                <div class="icon-text-container">
+                    <div><i class="fas fa-record-vinyl"></i></div> Record
+                </div>
+                
+                <div class="icon-text-container">
+                    <div><i class="fas fa-comments"></i></div> Breakout Rooms
+                </div>
+                
+                <div class="icon-text-container">
+                    <div><i class="fas fa-ellipsis-h"></i></div> More
+                </div>
+                
+            </div>
+            <div class="footer-end-meeting">
+                <div class="icon-text-container">End Meeting</div>
+
+            </div>
 
         </div>
 
